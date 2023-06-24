@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "aws deploy": "aws s3 sync dist/midway-travels/ s3://midwaybackend"
   },
   "private": true,
   "dependencies": {
